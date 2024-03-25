@@ -1,11 +1,8 @@
-body {
-    background-color: white;
+  body {
+  background-color: white;
   }
   
-  .wrapper {
-    /* display:  flex;
-    justify-content: center;
-    align-items: center; */
+.wrapper {
     background-color: #E6E6FA;
     margin: 50px auto;
     padding: 30px;
@@ -15,37 +12,37 @@ body {
     width: 800px;
   }
   
-  h1 {
+h1 {
     text-align: center;
     margin-bottom: 20px;
   }
   
-  form {
+form {
     display: flex;
     flex-direction: column;
     gap: 10px;
   }
 
-  .heading-text{
+.heading-text{
     font-family: Roboto, Arial;
 
   }
   
-  .login-inputs, .display_buttons{
+.login-inputs, .display_buttons{
     display: flex;
     gap: 10px; /* Adjust gap for spacing between inputs */
   }
   
-  a {
+a {
     color: #333;
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     text-decoration: underline;
   }
   
- .button{
+.button{
     display: flex;
     font-family: Roboto,Arial;
     font-size: 16px;
@@ -60,18 +57,18 @@ body {
     cursor: pointer;
     width: 100px;
     transition: opacity 0.15s;
-  }
+}
 
-  .input_text{
+.input_text{
 
     width: 50%;
     height: 150px;
     border-radius: 7px;
     padding: 10px;
     resize: none;
-  }
+}
   
-  p {
+p {
     text-align: center;
   }
 .submit-button{

@@ -1,7 +1,7 @@
 # Chatbot with Google Gemini
 
 ## Overview
-This project is a chatbot application built using the Google Gemini model. The frontend is developed with HTML, CSS, and JavaScript, while the backend is implemented using the Flask framework. Users can communicate with the chatbot through the user interface.
+This project is a chatbot application built using the Google Gemini model. The front end is developed with HTML, CSS, and JavaScript, while the back end is implemented using the Flask framework. Users can communicate with the chatbot through the user interface.
 
 ## Features
 - **Chatbot Communication:** Allows users to interact with the chatbot in real-time.
@@ -17,7 +17,7 @@ This project is a chatbot application built using the Google Gemini model. The f
 ## Project Structure
 - `src/`
   - `app.py`: Main application file for running the Flask server.
-  - `model.py`: Contains the code for loading and interacting with the Google Gemini model.
+  - `gemini_chatbot.py`: Contains the code for loading and interacting with the Google Gemini model.
 - `frontend/`
   - `index.html`: HTML file for the user interface.
   - `styles.css`: CSS file for styling the user interface.
@@ -26,8 +26,8 @@ This project is a chatbot application built using the Google Gemini model. The f
 ## Installation
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/chatbot-gemini.git
-    cd chatbot-gemini
+    git clone https://github.com/yourusername/chatbot-using-gemini.git
+    cd chatbot-using-gemini
     ```
 2. Create and activate a virtual environment:
     ```bash
@@ -42,7 +42,7 @@ This project is a chatbot application built using the Google Gemini model. The f
 ## Usage
 1. Run the Flask application:
     ```bash
-    python src/app.py
+    python app.py
     ```
 2. Open your web browser and go to `http://localhost:5000` to access the chatbot interface.
 3. Start chatting with the chatbot by typing your messages in the input field and pressing enter.
